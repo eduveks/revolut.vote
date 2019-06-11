@@ -1,0 +1,40 @@
+
+.field {
+    >div {
+	width: 100% !important;
+	&:first-child {
+	    margin-top: 0;
+	}
+	>input, >textarea {
+	    background-color: #ffffff;
+	}
+    }
+    &[error="input"] {
+	>div {
+	    >input {
+		
+	    }
+	}
+    }
+    &[error="textarea"] {
+	>div {
+	    border: 2px solid #f44336;
+	    border-radius: 5px;
+	}
+    }
+}
+
+input[error="true"] {
+    border-top: 2px solid #f44336;
+    border-left: 2px solid #f44336;
+    border-right: 2px solid #f44336;
+    border-radius: 5px 5px 0 0;
+}
+
+textarea[error="true"] {
+
+}
+
+textarea {
+    background-color: #ffffff;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Revolut.Vote",
+    "short_name": "Revolut.Vote",
+    "start_url": "/",
+    "api_url": "https://revolut.backdoor-1.eduardovelasques.com/api/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#673ab8",
+    "icons": [
+	{
+	    "src": "/assets/android-chrome-192x192.png",
+	    "type": "image/png",
+	    "sizes": "192x192"
+	},
+	{
+	    "src": "/assets/android-chrome-512x512.png",
+	    "type": "image/png",
+	    "sizes": "512x512"
+	}
+    ]
+}

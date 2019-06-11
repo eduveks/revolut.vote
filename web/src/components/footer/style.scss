@@ -1,0 +1,78 @@
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background: #0006c0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sponsors a,
+.sponsors a:active,
+.sponsorsContainer a,
+.sponsorsContainer a:hover {
+    color: #bae1ff;
+    text-decoration: none;
+}
+
+.sponsors a:hover,
+.sponsorsContainer a:hover {
+    color: #d2eafd;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sponsorsContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sponsorsLogosContainer {
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: repeat(1, 40px);
+}
+
+.sponsorsLogosContainer img {
+    width: auto;
+    height: auto;
+    max-height: 40px;
+}
+
+.sponsorVeksLogo {
+    max-height: 30px !important;
+}
+
+.sponsorsContentsContainer {
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: repeat(1, 40px);
+}
+
+.source {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.source img {
+    height: 20px;
+    width: 20px;
+}
+
+.source a, .source a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.author {
+    margin-top: 40px;
+    text-align: center;
+}
